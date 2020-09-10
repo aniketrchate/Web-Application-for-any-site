@@ -1,4 +1,4 @@
-package com.anir_projects.mgfashion;
+
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -75,6 +75,8 @@ public class MainActivity extends AppCompatActivity {
                 super.onProgressChanged(view, newProgress);
             }
         });
+
+//Function for opening other applications from your app
         webView.setWebViewClient(new WebViewClient(){
             @Override
             public boolean  shouldOverrideUrlLoading(WebView view, String url) {
